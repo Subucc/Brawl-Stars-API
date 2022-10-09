@@ -42,7 +42,7 @@ for brawler in player1_info['brawlers']:
 >> Brawler name: SHELLY | Trophies: 500
 >> Brawler name: COLT | Trophies: 359
 >> Brawler name: BULL | Trophies: 438
-> Brawler name: BROCK | Trophies: 395
+>> Brawler name: BROCK | Trophies: 395
 
 ```
 
