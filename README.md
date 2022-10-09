@@ -4,7 +4,7 @@
 Brawl Stars client based on official Brawl Stars API
 
 ## Installation
-`pip install ` for the stable version
+`pip install`  for the stable version
 
 ## Examples
 
