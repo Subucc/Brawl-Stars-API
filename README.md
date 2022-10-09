@@ -30,3 +30,5 @@ print(player1_info['trophies'])
 
 >> 10000
 ```
+
+### Exaple of printing all brawlers
