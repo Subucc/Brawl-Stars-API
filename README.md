@@ -26,8 +26,7 @@ print(club1.get_info())
 ```py
 
 player1_info = player1.get_info()
-for brawler in player1_info['brawlers']:
-    print(brawler['name'])
+print(player1_info['trophies'])
 
 >> 10000
 ```
