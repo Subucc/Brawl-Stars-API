@@ -22,3 +22,11 @@ print(player1.get_info())
 print(club1.get_info())
 
 ```
+### Getting Specific Informations
+```py
+
+player1_info = player1.get_info()
+print(player1_info['trophies'])
+
+>> 10000
+```
