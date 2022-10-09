@@ -26,9 +26,23 @@ print(club1.get_info())
 ```py
 
 player1_info = player1.get_info()
-print(player1_info['trophies'])
+for brawler in player1_info['brawlers']:
+    print(brawler['name'])
 
 >> 10000
 ```
 
-### Exaple of printing all brawlers
+### Example of printing all brawlers
+```py
+
+player1_info = player1.get_info()
+for brawler in player1_info['brawlers']:
+    print("Brawler name: " + brawler['name'] + " | Trophies: " + str(brawler['trophies']))
+
+>> Brawler name: SHELLY | Trophies: 500
+Brawler name: COLT | Trophies: 359
+Brawler name: BULL | Trophies: 438
+Brawler name: BROCK | Trophies: 395
+
+```
+
