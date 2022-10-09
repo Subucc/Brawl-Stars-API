@@ -12,11 +12,11 @@ Brawl Stars client based on official Brawl Stars API
 ```py
 import brawlstars
 
-token = "your token goes here" # You can create your token in: https://developer.brawlstars.com/#/getting-started
+token = "YOUR TOKEN" # You can create your token in: https://developer.brawlstars.com/#/getting-started
 client = brawlstars.Client(token)
 
-player1 = client.get_player("88QRYCJRG")
-club1 = client.get_club("2LVRYU29C")
+player1 = client.get_player("PLAYER TAG")
+club1 = client.get_club("CLUB TAG")
 
 print(player1.get_info())
 print(club1.get_info())
